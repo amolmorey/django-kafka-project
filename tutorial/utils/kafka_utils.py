@@ -5,7 +5,7 @@ from json import dumps
 class KProducer:
     def __init__(self):
         self.producer = KafkaProducer(
-            bootstrap_servers=["localhost:9092"],
+            bootstrap_servers=["localhost:9093"],
             value_serializer=lambda x: dumps(x).encode("utf-8"),
         )
 
