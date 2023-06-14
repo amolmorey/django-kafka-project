@@ -10,4 +10,9 @@ class KProducer:
         )
 
     def produce(self, topic_name, data):
+        print("sending data to kafka topic "+str(topic_name))
         self.producer.send(topic_name, value=data)
+
+        
+        
+        
