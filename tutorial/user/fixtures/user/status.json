@@ -1,0 +1,18 @@
+[
+    {
+        "model": "user.status",
+        "pk": 1,
+        "fields": {
+            "status_flag": 0,
+            "description": "Active"
+        }
+    },
+    {
+        "model": "user.status",
+        "pk": 2,
+        "fields": {
+            "status_flag": 1,
+            "description": "Deleted"
+        }
+    }
+]

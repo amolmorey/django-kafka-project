@@ -1,0 +1,2 @@
+class UserAlreadyDeleted(Exception):
+    pass
